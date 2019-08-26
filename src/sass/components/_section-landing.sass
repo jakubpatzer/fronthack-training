@@ -1,0 +1,43 @@
+// Section landing
+//
+// Description
+
+
+// Block
+// --------------------------------------------------
+// .section-landing
+.section-landing
+  padding: 80px 0 65px
+  background-image: linear-gradient(to bottom, #26a4a0, #0cd39e)
+  +breakpoint(tablet)
+    padding: 158px 0 132px
+// Elements
+// --------------------------------------------------
+// .section-landing__element
+.section-landing__container
+  +container($container-narrow-max-width)
+
+.section-landing__welcome
+  margin: 0 auto
+  text-align: center
+
+.section-landing__title
+  font-family: Montserrat
+  color: white
+  font-size: 90px
+  font-weight: $bold
+  font-style: normal
+  font-stretch: normal
+  line-height: 1.11
+  margin-bottom: 30px
+
+.section-landing__addon
+  color: white
+  font-size: 20px
+  font-weight: $medium
+// Modifiers
+// --------------------------------------------------
+// .section-landing--modifier
+.section-landing__title--color
+  color: $brand-secondary
+  display: block
